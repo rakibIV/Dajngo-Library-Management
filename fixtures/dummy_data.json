@@ -1,0 +1,722 @@
+[
+    {
+      "model": "book.author",
+      "pk": 1,
+      "fields": {
+        "name": "J.K. Rowling",
+        "biography": "British author best known for the Harry Potter series."
+      }
+    },
+    {
+      "model": "book.author",
+      "pk": 2,
+      "fields": {
+        "name": "George Orwell",
+        "biography": "English novelist known for 'Animal Farm' and '1984'."
+      }
+    },
+    {
+      "model": "book.author",
+      "pk": 3,
+      "fields": {
+        "name": "Jane Austen",
+        "biography": "English novelist known for works of romantic fiction."
+      }
+    },
+    {
+      "model": "book.author",
+      "pk": 4,
+      "fields": {
+        "name": "Stephen King",
+        "biography": "American author of horror, supernatural fiction, and fantasy novels."
+      }
+    },
+    {
+      "model": "book.author",
+      "pk": 5,
+      "fields": {
+        "name": "Agatha Christie",
+        "biography": "English writer known for her detective novels and short story collections."
+      }
+    },
+    {
+      "model": "book.author",
+      "pk": 6,
+      "fields": {
+        "name": "Neil Gaiman",
+        "biography": "English author of short fiction, novels, comic books, and films."
+      }
+    },
+    {
+      "model": "book.author",
+      "pk": 7,
+      "fields": {
+        "name": "Toni Morrison",
+        "biography": "American novelist, essayist, and professor who won the Nobel Prize for Literature."
+      }
+    },
+    {
+      "model": "book.author",
+      "pk": 8,
+      "fields": {
+        "name": "Haruki Murakami",
+        "biography": "Japanese writer whose books and stories have been bestsellers in Japan and internationally."
+      }
+    },
+    {
+      "model": "book.author",
+      "pk": 9,
+      "fields": {
+        "name": "Margaret Atwood",
+        "biography": "Canadian poet, novelist, literary critic, essayist, and environmental activist."
+      }
+    },
+    {
+      "model": "book.author",
+      "pk": 10,
+      "fields": {
+        "name": "Gabriel García Márquez",
+        "biography": "Colombian novelist known for his magical realism style."
+      }
+    },
+    {
+      "model": "book.category",
+      "pk": 1,
+      "fields": {
+        "name": "Fiction",
+        "description": "Imaginative works of prose, primarily novels and short stories."
+      }
+    },
+    {
+      "model": "book.category",
+      "pk": 2,
+      "fields": {
+        "name": "Non-fiction",
+        "description": "Prose writing that is based on facts, real events, and real people."
+      }
+    },
+    {
+      "model": "book.category",
+      "pk": 3,
+      "fields": {
+        "name": "Science",
+        "description": "Books related to various scientific disciplines and discoveries."
+      }
+    },
+    {
+      "model": "book.category",
+      "pk": 4,
+      "fields": {
+        "name": "History",
+        "description": "Books covering historical events, figures, and periods."
+      }
+    },
+    {
+      "model": "book.category",
+      "pk": 5,
+      "fields": {
+        "name": "Technology",
+        "description": "Books about computing, engineering, and technological developments."
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 1,
+      "fields": {
+        "title": "Harry Potter and the Philosopher's Stone",
+        "isbn": "9780747532699",
+        "author": 1,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 2,
+      "fields": {
+        "title": "1984",
+        "isbn": "9780451524935",
+        "author": 2,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 3,
+      "fields": {
+        "title": "Pride and Prejudice",
+        "isbn": "9780141439518",
+        "author": 3,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 4,
+      "fields": {
+        "title": "The Shining",
+        "isbn": "9780307743657",
+        "author": 4,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 5,
+      "fields": {
+        "title": "Murder on the Orient Express",
+        "isbn": "9780062693662",
+        "author": 5,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 6,
+      "fields": {
+        "title": "American Gods",
+        "isbn": "9780062572110",
+        "author": 6,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 7,
+      "fields": {
+        "title": "Beloved",
+        "isbn": "9781400033416",
+        "author": 7,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 8,
+      "fields": {
+        "title": "Norwegian Wood",
+        "isbn": "9780375704024",
+        "author": 8,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 9,
+      "fields": {
+        "title": "The Handmaid's Tale",
+        "isbn": "9780385490818",
+        "author": 9,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 10,
+      "fields": {
+        "title": "One Hundred Years of Solitude",
+        "isbn": "9780060883287",
+        "author": 10,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 11,
+      "fields": {
+        "title": "Harry Potter and the Chamber of Secrets",
+        "isbn": "9780747538486",
+        "author": 1,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 12,
+      "fields": {
+        "title": "Animal Farm",
+        "isbn": "9780451526342",
+        "author": 2,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 13,
+      "fields": {
+        "title": "Sense and Sensibility",
+        "isbn": "9780141439662",
+        "author": 3,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 14,
+      "fields": {
+        "title": "It",
+        "isbn": "9781982127794",
+        "author": 4,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 15,
+      "fields": {
+        "title": "Death on the Nile",
+        "isbn": "9780062073556",
+        "author": 5,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 16,
+      "fields": {
+        "title": "Neverwhere",
+        "isbn": "9780062476371",
+        "author": 6,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 17,
+      "fields": {
+        "title": "Song of Solomon",
+        "isbn": "9781400033423",
+        "author": 7,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 18,
+      "fields": {
+        "title": "Kafka on the Shore",
+        "isbn": "9781400079278",
+        "author": 8,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 19,
+      "fields": {
+        "title": "Oryx and Crake",
+        "isbn": "9780385721677",
+        "author": 9,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 20,
+      "fields": {
+        "title": "Love in the Time of Cholera",
+        "isbn": "9780307389732",
+        "author": 10,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 21,
+      "fields": {
+        "title": "A Brief History of Time",
+        "isbn": "9780553380163",
+        "author": 4,
+        "image": "",
+        "category": 3,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 22,
+      "fields": {
+        "title": "Sapiens: A Brief History of Humankind",
+        "isbn": "9780062316097",
+        "author": 6,
+        "image": "",
+        "category": 2,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 23,
+      "fields": {
+        "title": "The Second World War",
+        "isbn": "9780395083666",
+        "author": 2,
+        "image": "",
+        "category": 4,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 24,
+      "fields": {
+        "title": "The Art of Computer Programming",
+        "isbn": "9780201896831",
+        "author": 3,
+        "image": "",
+        "category": 5,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 25,
+      "fields": {
+        "title": "The Selfish Gene",
+        "isbn": "9780198788607",
+        "author": 1,
+        "image": "",
+        "category": 3,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 26,
+      "fields": {
+        "title": "Cosmos",
+        "isbn": "9780345539434",
+        "author": 8,
+        "image": "",
+        "category": 3,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 27,
+      "fields": {
+        "title": "The Rise and Fall of the Third Reich",
+        "isbn": "9781451651683",
+        "author": 5,
+        "image": "",
+        "category": 4,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 28,
+      "fields": {
+        "title": "Clean Code",
+        "isbn": "9780132350884",
+        "author": 9,
+        "image": "",
+        "category": 5,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 29,
+      "fields": {
+        "title": "The Double Helix",
+        "isbn": "9780743216302",
+        "author": 10,
+        "image": "",
+        "category": 3,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 30,
+      "fields": {
+        "title": "A People's History of the United States",
+        "isbn": "9780062397348",
+        "author": 7,
+        "image": "",
+        "category": 4,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 31,
+      "fields": {
+        "title": "Design Patterns",
+        "isbn": "9780201633610",
+        "author": 1,
+        "image": "",
+        "category": 5,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 32,
+      "fields": {
+        "title": "The Origin of Species",
+        "isbn": "9780451529060",
+        "author": 3,
+        "image": "",
+        "category": 3,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 33,
+      "fields": {
+        "title": "Guns, Germs, and Steel",
+        "isbn": "9780393354324",
+        "author": 2,
+        "image": "",
+        "category": 4,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 34,
+      "fields": {
+        "title": "The Pragmatic Programmer",
+        "isbn": "9780201616224",
+        "author": 6,
+        "image": "",
+        "category": 5,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 35,
+      "fields": {
+        "title": "Brief Answers to the Big Questions",
+        "isbn": "9781984819192",
+        "author": 4,
+        "image": "",
+        "category": 3,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 36,
+      "fields": {
+        "title": "The Silk Roads",
+        "isbn": "9781101946329",
+        "author": 8,
+        "image": "",
+        "category": 4,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 37,
+      "fields": {
+        "title": "Zero to One",
+        "isbn": "9780804139298",
+        "author": 5,
+        "image": "",
+        "category": 5,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 38,
+      "fields": {
+        "title": "The Gene: An Intimate History",
+        "isbn": "9781476733524",
+        "author": 9,
+        "image": "",
+        "category": 3,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 39,
+      "fields": {
+        "title": "SPQR: A History of Ancient Rome",
+        "isbn": "9781631492228",
+        "author": 7,
+        "image": "",
+        "category": 4,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 40,
+      "fields": {
+        "title": "Code Complete",
+        "isbn": "9780735619678",
+        "author": 10,
+        "image": "",
+        "category": 5,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 41,
+      "fields": {
+        "title": "Harry Potter and the Prisoner of Azkaban",
+        "isbn": "9780747546290",
+        "author": 1,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 42,
+      "fields": {
+        "title": "Emma",
+        "isbn": "9780141439587",
+        "author": 3,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 43,
+      "fields": {
+        "title": "The Stand",
+        "isbn": "9780307743688",
+        "author": 4,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 44,
+      "fields": {
+        "title": "And Then There Were None",
+        "isbn": "9780062073488",
+        "author": 5,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 45,
+      "fields": {
+        "title": "Good Omens",
+        "isbn": "9780060853983",
+        "author": 6,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 46,
+      "fields": {
+        "title": "Sula",
+        "isbn": "9781400033430",
+        "author": 7,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 47,
+      "fields": {
+        "title": "1Q84",
+        "isbn": "9780307476463",
+        "author": 8,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 48,
+      "fields": {
+        "title": "The Blind Assassin",
+        "isbn": "9780385720953",
+        "author": 9,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 49,
+      "fields": {
+        "title": "Chronicle of a Death Foretold",
+        "isbn": "9781400034710",
+        "author": 10,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    },
+    {
+      "model": "book.book",
+      "pk": 50,
+      "fields": {
+        "title": "Harry Potter and the Goblet of Fire",
+        "isbn": "9780747546469",
+        "author": 1,
+        "image": "",
+        "category": 1,
+        "is_available": true
+      }
+    }
+  ]
