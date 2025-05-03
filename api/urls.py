@@ -14,6 +14,8 @@ borrow_router = routers.NestedDefaultRouter(router,'borrows', lookup='borrow')
 borrow_router.register('records',BorrowRecordViewSet, basename='borrow-records')
 
 urlpatterns = [
+    path('auth/',include('djoser.urls')),
+    path('auth/',include('djoser.urls.jwt')),
     path('', include(router.urls)),
     path('',include(borrow_router.urls))
 ]
