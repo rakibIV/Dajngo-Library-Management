@@ -54,6 +54,13 @@ class BookViewSet(ModelViewSet):
     def destroy(self, request, *args, **kwargs):
         return super().destroy(request, *args, **kwargs)
     
+    
+    def get_permissions(self):
+        if self.request.method == "GET":
+            return [IsAuthenticated()]
+        else:
+            return [IsAdminUser()]
+    
     filter_backends = [DjangoFilterBackend,SearchFilter]
     filterset_class = BookFilter
     pagination_class = PageNumberPagination
