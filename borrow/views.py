@@ -39,6 +39,9 @@ class BorrowViewSet(ModelViewSet):
     )
     def create(self, request, *args, **kwargs):
         return super().create(request, *args, **kwargs)
+    
+    
+    
     permission_classes = [IsAuthenticated]
     serializer_class = BorrowSerializers
     
@@ -84,6 +87,10 @@ class BorrowRecordViewSet(ModelViewSet):
     )
     def update(self, request, *args, **kwargs):
         return super().update(request, *args, **kwargs)
+    
+    
+    
+    
     permission_classes = [IsAuthenticated]
     filter_backends = [DjangoFilterBackend,SearchFilter]
     search_fields = ['book__title']

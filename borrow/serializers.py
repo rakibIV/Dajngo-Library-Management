@@ -19,9 +19,8 @@ class BorrowSerializers(serializers.ModelSerializer):
         if borrow:
             raise serializers.ValidationError("You already have a borrow record. go through with the borrow id")
         
-        borrow = Borrow.objects.create(member=user)
         
-        return borrow
+        return attrs
         
         
         
